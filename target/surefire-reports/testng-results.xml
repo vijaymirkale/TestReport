@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="135" started-at="2019-04-08T03:18:47Z" finished-at="2019-04-08T03:18:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="ATest.asbcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="asbcd" class="com.clc.api.ATest"/>
+        <method signature="BTest.bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" class="com.clc.api.BTest"/>
+        <method signature="LoginATest.basbcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="basbcd" class="com.clc.login.LoginATest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ATest.asbcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="asbcd" class="com.clc.api.ATest"/>
+        <method signature="BTest.bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" class="com.clc.api.BTest"/>
+        <method signature="BTest.bpabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bpabcd" class="com.clc.api.BTest"/>
+        <method signature="CTest.bcasbcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="bcasbcd" class="com.clc.api.CTest"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="BTest.bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" class="com.clc.api.BTest"/>
+        <method signature="LoginATest.basbcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="basbcd" class="com.clc.login.LoginATest"/>
+      </group> <!-- integration -->
+      <group name="sanity">
+        <method signature="BTest.bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" class="com.clc.api.BTest"/>
+        <method signature="CTest.bcasbcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="bcasbcd" class="com.clc.api.CTest"/>
+        <method signature="DTest.bxasbcd()[pri:0, instance:com.clc.autheticate.DTest@2133c8f8]" name="bxasbcd" class="com.clc.autheticate.DTest"/>
+      </group> <!-- sanity -->
+      <group name="db">
+        <method signature="BTest.bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" class="com.clc.api.BTest"/>
+        <method signature="BTest.bpabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bpabcd" class="com.clc.api.BTest"/>
+        <method signature="CTest.bcasbcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="bcasbcd" class="com.clc.api.CTest"/>
+        <method signature="DTest.bxasbcd()[pri:0, instance:com.clc.autheticate.DTest@2133c8f8]" name="bxasbcd" class="com.clc.autheticate.DTest"/>
+      </group> <!-- db -->
+    </groups>
+    <test name="Command line test" duration-ms="135" started-at="2019-04-08T03:18:47Z" finished-at="2019-04-08T03:18:47Z">
+      <class name="com.clc.api.BTest">
+        <test-method status="PASS" signature="baabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="baabcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baabcd -->
+        <test-method status="PASS" signature="basbcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="basbcd" duration-ms="5" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basbcd -->
+        <test-method status="PASS" signature="baxbcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="baxbcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baxbcd -->
+        <test-method status="PASS" signature="bfabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bfabcd" duration-ms="3" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfabcd -->
+        <test-method status="PASS" signature="bpabcd()[pri:0, instance:com.clc.api.BTest@49e4cb85]" name="bpabcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bpabcd -->
+      </class> <!-- com.clc.api.BTest -->
+      <class name="com.clc.autheticate.ETest">
+        <test-method status="PASS" signature="abcd2()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="abcd2" is-config="true" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcd2 -->
+        <test-method status="PASS" signature="b2Easbcd()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="b2Easbcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2Easbcd -->
+        <test-method status="PASS" signature="b1Efabcd()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="b1Efabcd" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1Efabcd -->
+        <test-method status="PASS" signature="b3Efabcd()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="b3Efabcd" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3Efabcd -->
+        <test-method status="PASS" signature="bEasbcd()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="bEasbcd" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bEasbcd -->
+        <test-method status="PASS" signature="abcd6()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="abcd6" is-config="true" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcd6 -->
+      </class> <!-- com.clc.autheticate.ETest -->
+      <class name="com.clc.autheticate.DTest">
+        <test-method status="PASS" signature="bxasbcd()[pri:0, instance:com.clc.autheticate.DTest@2133c8f8]" name="bxasbcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bxasbcd -->
+        <test-method status="PASS" signature="byfabcd()[pri:0, instance:com.clc.autheticate.DTest@2133c8f8]" name="byfabcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byfabcd -->
+        <test-method status="PASS" signature="abcd()[pri:0, instance:com.clc.autheticate.ETest@43a25848]" name="abcd" is-config="true" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcd -->
+        <test-method status="PASS" signature="laogobasbcd()[pri:0, instance:com.clc.autheticate.DTest@2133c8f8]" name="laogobasbcd" is-config="true" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laogobasbcd -->
+      </class> <!-- com.clc.autheticate.DTest -->
+      <class name="com.clc.login.LoginATest">
+        <test-method status="PASS" signature="baasbcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="baasbcd" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baasbcd -->
+        <test-method status="PASS" signature="basbcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="basbcd" duration-ms="3" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basbcd -->
+        <test-method status="PASS" signature="bfadbcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="bfadbcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfadbcd -->
+        <test-method status="PASS" signature="bfsabcd()[pri:0, instance:com.clc.login.LoginATest@3ac3fd8b]" name="bfsabcd" duration-ms="2" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsabcd -->
+      </class> <!-- com.clc.login.LoginATest -->
+      <class name="com.clc.login.LoginTest">
+        <test-method status="PASS" signature="btes1t()[pri:0, instance:com.clc.login.LoginTest@5594a1b5]" name="btes1t" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btes1t -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:com.clc.login.LoginTest@5594a1b5]" name="btest" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+      </class> <!-- com.clc.login.LoginTest -->
+      <class name="com.clc.api.CTest">
+        <test-method status="PASS" signature="abcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="abcd" is-config="true" duration-ms="18" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcd -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="m2" is-config="true" duration-ms="2" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="m4" is-config="true" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="m3" is-config="true" duration-ms="2" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="bcasbcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="bcasbcd" duration-ms="6" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcasbcd -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="m3" is-config="true" duration-ms="0" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="bcfabcd()[pri:0, instance:com.clc.api.CTest@58ceff1]" name="bcfabcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcfabcd -->
+      </class> <!-- com.clc.api.CTest -->
+      <class name="com.clc.api.ATest">
+        <test-method status="PASS" signature="aabcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="aabcd" duration-ms="2" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aabcd -->
+        <test-method status="PASS" signature="asbcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="asbcd" duration-ms="13" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asbcd -->
+        <test-method status="PASS" signature="axbcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="axbcd" duration-ms="2" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- axbcd -->
+        <test-method status="PASS" signature="fabcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="fabcd" duration-ms="4" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fabcd -->
+        <test-method status="PASS" signature="pabcd()[pri:0, instance:com.clc.api.ATest@7c30a502]" name="pabcd" duration-ms="1" started-at="2019-04-08T08:48:47Z" finished-at="2019-04-08T08:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pabcd -->
+      </class> <!-- com.clc.api.ATest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

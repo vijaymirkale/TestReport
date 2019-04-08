@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 08 08:48:47 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (135 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.clc.api.ATest.aabcd()'><b>aabcd</b><br>Test class: com.clc.api.ATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.ATest@7c30a502</td></tr>
+<tr>
+<td title='com.clc.api.ATest.asbcd()'><b>asbcd</b><br>Test class: com.clc.api.ATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.ATest@7c30a502</td></tr>
+<tr>
+<td title='com.clc.api.ATest.axbcd()'><b>axbcd</b><br>Test class: com.clc.api.ATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.ATest@7c30a502</td></tr>
+<tr>
+<td title='com.clc.autheticate.ETest.b1Efabcd()'><b>b1Efabcd</b><br>Test class: com.clc.autheticate.ETest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.ETest@43a25848</td></tr>
+<tr>
+<td title='com.clc.autheticate.ETest.b2Easbcd()'><b>b2Easbcd</b><br>Test class: com.clc.autheticate.ETest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.ETest@43a25848</td></tr>
+<tr>
+<td title='com.clc.autheticate.ETest.b3Efabcd()'><b>b3Efabcd</b><br>Test class: com.clc.autheticate.ETest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.ETest@43a25848</td></tr>
+<tr>
+<td title='com.clc.autheticate.ETest.bEasbcd()'><b>bEasbcd</b><br>Test class: com.clc.autheticate.ETest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.ETest@43a25848</td></tr>
+<tr>
+<td title='com.clc.api.BTest.baabcd()'><b>baabcd</b><br>Test class: com.clc.api.BTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.BTest@49e4cb85</td></tr>
+<tr>
+<td title='com.clc.login.LoginATest.baasbcd()'><b>baasbcd</b><br>Test class: com.clc.login.LoginATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginATest@3ac3fd8b</td></tr>
+<tr>
+<td title='com.clc.api.BTest.basbcd()'><b>basbcd</b><br>Test class: com.clc.api.BTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.BTest@49e4cb85</td></tr>
+<tr>
+<td title='com.clc.login.LoginATest.basbcd()'><b>basbcd</b><br>Test class: com.clc.login.LoginATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginATest@3ac3fd8b</td></tr>
+<tr>
+<td title='com.clc.api.BTest.baxbcd()'><b>baxbcd</b><br>Test class: com.clc.api.BTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.BTest@49e4cb85</td></tr>
+<tr>
+<td title='com.clc.api.CTest.bcasbcd()'><b>bcasbcd</b><br>Test class: com.clc.api.CTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.CTest@58ceff1</td></tr>
+<tr>
+<td title='com.clc.api.CTest.bcfabcd()'><b>bcfabcd</b><br>Test class: com.clc.api.CTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.CTest@58ceff1</td></tr>
+<tr>
+<td title='com.clc.api.BTest.bfabcd()'><b>bfabcd</b><br>Test class: com.clc.api.BTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.BTest@49e4cb85</td></tr>
+<tr>
+<td title='com.clc.login.LoginATest.bfadbcd()'><b>bfadbcd</b><br>Test class: com.clc.login.LoginATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginATest@3ac3fd8b</td></tr>
+<tr>
+<td title='com.clc.login.LoginATest.bfsabcd()'><b>bfsabcd</b><br>Test class: com.clc.login.LoginATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginATest@3ac3fd8b</td></tr>
+<tr>
+<td title='com.clc.api.BTest.bpabcd()'><b>bpabcd</b><br>Test class: com.clc.api.BTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.BTest@49e4cb85</td></tr>
+<tr>
+<td title='com.clc.login.LoginTest.btes1t()'><b>btes1t</b><br>Test class: com.clc.login.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginTest@5594a1b5</td></tr>
+<tr>
+<td title='com.clc.login.LoginTest.btest()'><b>btest</b><br>Test class: com.clc.login.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.login.LoginTest@5594a1b5</td></tr>
+<tr>
+<td title='com.clc.autheticate.DTest.bxasbcd()'><b>bxasbcd</b><br>Test class: com.clc.autheticate.DTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.DTest@2133c8f8</td></tr>
+<tr>
+<td title='com.clc.autheticate.DTest.byfabcd()'><b>byfabcd</b><br>Test class: com.clc.autheticate.DTest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.autheticate.DTest@2133c8f8</td></tr>
+<tr>
+<td title='com.clc.api.ATest.fabcd()'><b>fabcd</b><br>Test class: com.clc.api.ATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.ATest@7c30a502</td></tr>
+<tr>
+<td title='com.clc.api.ATest.pabcd()'><b>pabcd</b><br>Test class: com.clc.api.ATest</td>
+<td></td>
+<td>0</td>
+<td>com.clc.api.ATest@7c30a502</td></tr>
+</table><p>
+</body>
+</html>

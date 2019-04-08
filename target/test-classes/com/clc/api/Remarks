@@ -1,0 +1,52 @@
+	
+	
+	>mvn clean install
+	>> mvn clean install -Dgroups=smoke,regression
+	>> mvn clean install -DTest=Test1
+	
+	
+	
+	TestNg
+	
+	before
+		suite
+		class
+		Test
+		method
+		group
+	after
+	
+	@Test -- 
+	TestNG.xml
+	test-reports
+	custome test reports
+	lIsterner configuration -- 
+	Which jar for report generations. -- jfreechart
+	differnet ways to execute..
+	commands -
+	parameters
+	dynamic parameters...
+	hard assert
+	soft assert..
+	Command line executions...
+	maven build life cycle..
+	maven configuration
+		settings.xml
+		maven project..
+			project structure
+			pom.xml -- properties.dependencies..pluings..repositories..groupid/artifact/vertion/packaing..
+			
+		Build Tool
+		Transitive dependencies
+		same version for everyone..
+		no need to share jars..share only settings.xml and pom.xml
+	log4j configuration
+		log4j.properties - Baseconfiguration.confire(path)
+		appenders -- DB,FIle,Daily,ROlling,Console,SMTP
+		patterns -- d m nc
+		loggers -- OFE WI DTA
+		
+	Git-- Github -- Subversioning tool..
+	
+	
+	
