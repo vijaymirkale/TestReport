@@ -16,6 +16,8 @@ import lombok.ToString;
 public class TestSorting {
 		public static void main(String[] args) {
 			System.out.println("testsorting....1!");
+			System.out.println("testsorting....3!");
+			System.out.println("testsorting...2!");
 			Address addr1 = new Address(110201,"Pune");
 			Address addr2 = new Address(450201,"Mumbai");
 			Address addr3 = new Address(660201,"Bglore");
