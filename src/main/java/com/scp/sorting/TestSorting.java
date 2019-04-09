@@ -8,7 +8,7 @@ public class TestSorting {
 			System.out.println("result"+result);
 			
 		
-			System.out.println("welcimeto GIT");
+			System.out.println("welcime to GIT1");
 			
 		}
 }
